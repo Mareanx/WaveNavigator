@@ -21,4 +21,4 @@ export const UrlProvider: React.FC = ({ children }) => {
   );
 };
 
-export default UrlContxt;
+export default { UrlContxt, UrlProvider };

@@ -8,6 +8,7 @@ export const Container = styled.div`
    align-items: center;
    font-family: Helvetica, Arial, sans-serif;
 
+
    h1{
     margin-top:
     font-size:
@@ -16,22 +17,23 @@ export const Container = styled.div`
 
    form{
    display: flex;
-   height: 40px;
+   height: 50px;
    margin-top: 10px;
  }
 
   input{
     width: 50vw;
-    margin-right: 20px;
-    border: 1px solid gray;
-    padding: 0 20px;
-    border-radius 5px;
+    margin-right: 10px;
+    border: 0;
+    padding: 0 20px
+    border-radius 1px;
+    background: #bd93f9;
   }
 
   textarea:focus{
     input:focus{
         outline: none;
-        border: 2px solid #6272a4 !important;
+        border: 1px solid #6272a4 !important;
 
     }
 
@@ -39,9 +41,8 @@ export const Container = styled.div`
         width: 60px;
         border: 0;
         cursor: pointer;
-        color: #282a36;
+        color: #bd93f9;
         border-radius: 5px;
-        background-color: #bd93f9;
     }
 
     button:focus{
